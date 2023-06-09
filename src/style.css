@@ -1,0 +1,27 @@
+.test1,
+.test2,
+.test3,
+.test4 {
+  width: 100px;
+  height: 200px;
+  background: white;
+  border: 10px solid black;
+}
+.test1,
+.test2,
+.test3,
+.test4 {
+  width: 100px;
+  height: 200px;
+  background: pink;
+  border: 10px solid black;
+  margin: 20px;
+}
+
+.test1 > .test1inner {
+  background-color: aqua;
+}
+
+.test1 span {
+  background-color: blue;
+}
